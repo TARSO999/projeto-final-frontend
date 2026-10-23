@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato | Mundo Viagens</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="topo">
+        <span class="logo"> Mundo Viagens</span> 
+        <nav class="menu">
+            <a href="index.html">Início</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="contato.html" class="ativo">Contato</a>
+        </nav>
+    </header>
+    <main>
+        <section class="conteudo">
+            <h1>Fale Conosco ✈️</h1>
+            <p>Tem dúvidas ou quer um orçamento? Preencha o formulário abaixo que entraremos em contato com você!</p>
+            <div class="info-contato">
+                <p><strong>📍 Endereço:</strong> Curitiba - PR</p>
+                <p><strong>📞 Telefone/WhatsApp:</strong> (41) 99999-9999</p>
+                <p><strong>📧 E-mail:</strong> contato@mundoviagens.com.br</p>
+            </div>
+            <form class="form" action="#">
+                <div class="campo">
+                    <label for="nome">Seu nome</label>
+                    <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" required>
+                </div>
+                <div class="campo">
+                    <label for="email">Seu e-mail</label>
+                    <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required>
+                </div>
+                <div class="campo">
+                    <label for="telefone">Telefone / WhatsApp</label>
+                    <input type="tel" id="telefone" name="telefone" placeholder="(41) 99999-9999">
+                </div>
+                <div class="campo">
+                    <label for="destino">Destino de interesse</label>
+                    <input type="text" id="destino" name="destino" placeholder="Ex: Europa, Estados Unidos, Japão...">
+                </div>
+                <div class="campo">
+                    <label for="msg">Sua mensagem</label>
+                    <textarea name="msg" id="msg" rows="4" placeholder="Conte-nos sobre sua viagem dos sonhos!" required></textarea>
+                </div>
+                <button type="submit" class="botao">Enviar Mensagem ✉️</button>
+            </form>
+        </section>
+    </main>
+    <footer class="rodape">
+        <p>Feito por Tarso 2DAT2 - Projeto Frontend | © 2026 Mundo Viagens - Todos os direitos reservados</p>
+    </footer>
+</body>
+</html>
